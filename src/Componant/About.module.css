@@ -1,0 +1,26 @@
+.section_header{
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+
+}
+.about_container{
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 5rem 1rem;
+ }
+  .p {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+  }
+  
+  .about__image{
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+  }

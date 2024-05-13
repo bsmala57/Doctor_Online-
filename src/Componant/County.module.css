@@ -1,0 +1,11 @@
+.department__grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+  /* .span{
+    text-align: center;
+    color: var(--primary-color-dark);
+    padding-left: 450px;
+  } */
